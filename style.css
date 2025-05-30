@@ -1,0 +1,54 @@
+body {
+  background-color: hsl(0, 0%, 97%);
+  font-family: cursive;
+  text-align: center;
+}
+*::selection {
+  background-color: hsl(0, 0%, 81%);
+}
+input[type="text"] {
+  margin-bottom: 15px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: hsl(0, 0%, 34%);
+  transition: all 0.1s ease;
+}
+input[type="text"]:focus {
+  border-color: hsl(0, 0%, 71%);
+  background-color: hsl(0, 0%, 90%);
+}
+button[type="button"] {
+  padding: 7px 16px;
+  width: 80px;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  background-color: hsl(0, 0%, 40%);
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button[type="button"]:hover {
+  background-color: hsl(0, 0%, 50%);
+}
+button[type="button"]:active {
+  background-color: hsl(0, 0%, 60%);
+}
+#help {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+mark {
+  background-color: hsl(0, 0%, 85%);
+  padding: 0 5px;
+}
+#help {
+  width: max-content;
+  max-width: 90vw;
+  line-height: 1.5;
+}

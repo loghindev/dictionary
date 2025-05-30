@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dictionary</h1>
+    <br />
+    <label for="addWord">📃Add:</label>
+    <input type="text" id="addWord" placeholder="Apple" autocomplete="off" />
+    <button type="button" id="addWordBtn">Add</button>
+    <br />
+
+    <label for="searchWord">Search:</label>
+    <input type="text" id="searchWord" autocomplete="off" />
+    <button type="button" id="searchWordBtn">Search</button>
+
+    <p class="dictionary-container"></p>
+    <p id="statusDisplay"></p>
+
+    <p id="help">
+      Type <mark>/help</mark> in 'Search field' to get existent words or
+      <mark>/console</mark> to display an array in the console.
+    </p>
+    <script src="./script.js"></script>
+  </body>
+</html>
