@@ -2,7 +2,6 @@
 
 <table>
   <tr>
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3V6ZGJyMjZyaDN5aXUyaDc2aXB4OGxtcWVzcGVmNWVmM3dncmNmMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2Je66zG6mAAZxgqI/giphy.gif" width="350" alt="simpson reading dictionary" />
     <td>Add words in dictionary, then search them.
 
 Type `/help` inside the 'Search' field to get the available words from dictionary.  
